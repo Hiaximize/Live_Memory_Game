@@ -4,7 +4,7 @@ cards = [
                 {
                 rank: "queen",
                 suit: "hearts",
-                cardImage: url("https://raw.githubusercontent.com/Hiaximize/Live_Memory_Game/master/queen-of-hearts.png")},
+                cardImage: "https://raw.githubusercontent.com/Hiaximize/Live_Memory_Game/master/queen-of-hearts.png"},
 
                 {
                 rank: "queen",
