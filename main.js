@@ -81,7 +81,7 @@ function createBoard() {
     
     for (var i = 0; i < cards.length; i ++) {
        var cardElement = document.createElement('img');
-       cardElement.setAttribute('src', 'images/back.png');
+       cardElement.setAttribute('src', 'https://raw.githubusercontent.com/Hiaximize/Live_Memory_Game/master/back.png');
        cardElement.setAttribute('data-id', i);
        cardElement.addEventListener('click', flipCard);
        var element = document.getElementById('game-board');
