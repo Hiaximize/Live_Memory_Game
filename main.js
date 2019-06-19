@@ -9,18 +9,18 @@ cards = [
                 {
                 rank: "queen",
                 suit: "diamonds",
-                cardImage: "images/queen-of-diamonds.png"},
+                cardImage: "https://raw.githubusercontent.com/Hiaximize/Live_Memory_Game/master/queen-of-diamonds.png"},
 
                 // Kind cards
                 {
                 rank: "king",
                 suit: "hearts",
-                cardImage: "images/king-of-hearts.png"},
+                cardImage: "https://raw.githubusercontent.com/Hiaximize/Live_Memory_Game/master/king-of-hearts.png"},
 
                 {
                 rank: "king",
                 suit: "diamonds",
-                cardImage: "images/king-of-diamonds.png"}
+                cardImage: "https://raw.githubusercontent.com/Hiaximize/Live_Memory_Game/master/king-of-diamonds.png"}
          ];
 
 // Array that will hold the flipped cards.
