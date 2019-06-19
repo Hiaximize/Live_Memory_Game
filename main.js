@@ -97,6 +97,7 @@ function reloadPage() {
     cardsInPlay.length = 0;
     console.log(cardsInPlay);
     for (var i = 0; i < cards.length; i ++) {
+        var cardElement = document.getElementById('img'); 
         cardElement.setAttribute('src', 'https://raw.githubusercontent.com/Hiaximize/Live_Memory_Game/master/back.png');        
     }
 }
