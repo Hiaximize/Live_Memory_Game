@@ -96,7 +96,9 @@ function createBoard() {
 function reloadPage() {
     cardsInPlay.length = 0;
     console.log(cardsInPlay);
-    createBoard();
+    for (var i = 0; i < cards.length; i ++) {
+        cardElement.setAttribute('src', 'https://raw.githubusercontent.com/Hiaximize/Live_Memory_Game/master/back.png');        
+    }
 }
 
 randomizeCards();
