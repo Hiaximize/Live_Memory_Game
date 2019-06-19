@@ -94,7 +94,8 @@ function createBoard() {
 };
 
 function reloadPage() {
-    location.reload(false);
+    cardsInPlay.length = 0;
+    console.log(cardsInPlay);
 }
 
 randomizeCards();
